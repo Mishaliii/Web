@@ -1,0 +1,19 @@
+.external-style {
+    color: purple;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.styled-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.styled-button:hover {
+    background-color: darkorange;
+}
