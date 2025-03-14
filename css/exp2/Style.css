@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    box-shadow:10px 5px 20px rgba(0.2, 0, 0, 0.2);;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input, 
+.input-group select {
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    outline: none;
+}
+
+
+
+.terms-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.terms-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.terms-label a {
+    color: #952fe3;
+    text-decoration: none;
+}
+
+.terms-label a:hover {
+    text-decoration: underline;
+}
+
+.submit-btn {
+    background-color: #9733de;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #3b013c;
+}
